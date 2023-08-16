@@ -1,0 +1,30 @@
+.navbar{
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(0, 128, 0, 0.095);
+  padding: 1rem 2rem ;
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between;
+  .ul{
+    display: flex; gap: 2rem;
+  }
+}
+.surahdiv{
+  padding: 5rem 2rem;
+  display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 15px; 
+  justify-items: center;
+}
+.card1{
+  display: flex; justify-content: space-between;
+}
+.card2{
+  padding-top: 100px;
+  display: flex; flex-direction: column; row-gap: 20px; align-items: center;
+  .single{
+    padding: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    border-radius: 10px;
+  }
+}
